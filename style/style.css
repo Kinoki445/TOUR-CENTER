@@ -741,4 +741,9 @@ body.modal-open {
     .contacts__inner-social{
         margin-top: 20px;
     }
+
+    .button{
+        width: 100px;
+        height: 40px;
+    }
 }
