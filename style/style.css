@@ -586,16 +586,23 @@ body.modal-open {
         justify-content: center
     }
 
+    .user-action{
+        justify-content: center
+    }
+
     .about__text-item {
         font-size: 16px;
     }
 
     .map__inner {
-        text-align: center;
         display: flex;
         justify-content: space-between;
         flex-direction: column;
         align-items: center;
+    }
+
+    .map__inner-ul{
+        margin: 0;
     }
 
     .map__inner-li {
