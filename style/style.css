@@ -675,6 +675,10 @@ body.modal-open {
     .product-price {
         font-size: 19px;
     }
+
+    .modal-content2, .modal-content{
+        width: 100%;
+    }
 }
 
 @media (max-width: 700px) {
