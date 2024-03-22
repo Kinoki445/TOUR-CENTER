@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Fedra Sans Pro Book';
+    src: url('FedraSansPro-BookItalic.eot');
+    src: local('Fedra Sans Pro Book Italic'), local('FedraSansPro-BookItalic'),
+        url('FedraSansPro-BookItalic.eot?#iefix') format('embedded-opentype'),
+        url('FedraSansPro-BookItalic.woff2') format('woff2'),
+        url('FedraSansPro-BookItalic.woff') format('woff'),
+        url('FedraSansPro-BookItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Fedra Sans Pro Book';
+    src: url('FedraSansPro-Book.eot');
+    src: local('Fedra Sans Pro Book'), local('FedraSansPro-Book'),
+        url('FedraSansPro-Book.eot?#iefix') format('embedded-opentype'),
+        url('FedraSansPro-Book.woff2') format('woff2'),
+        url('FedraSansPro-Book.woff') format('woff'),
+        url('FedraSansPro-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
