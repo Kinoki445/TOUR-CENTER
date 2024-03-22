@@ -647,10 +647,12 @@ body.modal-open {
     .about__text {
         max-width: 100%;
         align-items: center;
+        gap: 0px;
     }
 
     .about__text-item {
         text-align: center;
+        margin-bottom: 20px;
     }
 
     .contacts__inner {
@@ -688,5 +690,55 @@ body.modal-open {
     .footer__list {
         flex-wrap: wrap;
         justify-content: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .map__inner-li{
+        font-size: 12px;
+    }
+
+    .about__text-item{
+        font-size: 12px;
+    }
+
+    .top__text{
+        font-size: 16px;
+    }
+
+    .top__title{
+        font-size: 45px;
+    }
+
+    .bloc-title{
+        font-size: 24px;
+        margin: 40px 0;
+    }
+
+    .menu__list{
+        gap: 20px;
+    }
+
+    .marshrut__inner-li p{
+        font-size: 12px;
+    }
+
+    .modal-li{
+        font-size: 12px;
+    }
+
+    .contacts__inner-title{
+        font-size: 16px;
+    }
+
+    .contacts__inner-text{
+        font-size: 12px;
+    }
+
+    .contacts__inner-itme{
+        margin: 0;
+    }
+    .contacts__inner-social{
+        margin-top: 20px;
     }
 }
