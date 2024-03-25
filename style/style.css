@@ -701,7 +701,8 @@ body.modal-open {
 @media (max-width: 600px) {
 
     .about__text-item{
-        text-align: justify;
+        text-align: center;
+        width: 300px;
     }
 
     .map__inner-text{
