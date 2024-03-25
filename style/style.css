@@ -700,6 +700,10 @@ body.modal-open {
 
 @media (max-width: 600px) {
 
+    .header__inner{
+        gap: 10px;
+    }
+
     .about__text-item{
         text-align: center;
         width: 300px;
