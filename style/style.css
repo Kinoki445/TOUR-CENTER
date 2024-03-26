@@ -38,7 +38,7 @@
     align-items: center;
     /* flex-direction: column; */
     gap: 15px;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 18px;
 }
 
@@ -54,6 +54,7 @@
     gap: 0 65px;
     font-weight: 400;
     font-size: 16px;
+    font-weight: 600;
     flex-wrap: wrap;
     padding: 0 20px;
     justify-content: center;
@@ -67,7 +68,7 @@
     display: flex;
     align-items: center;
     gap: 0 35px;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 18px;
     flex-wrap: wrap;
     padding: 0 30px;
@@ -90,7 +91,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-image: linear-gradient(#000000, #274056);
+    background-image: linear-gradient(#3e3e3e, #274056);
     opacity: 0.6;
 }
 
@@ -111,13 +112,15 @@
     margin-bottom: 20px;
     max-width: 550px;
     line-height: normal;
+    font-weight: 600;
 }
 
 .top__text {
     font-size: 24px;
     margin-bottom: 48px;
-    max-width: 700px;
-    line-height: 1.5;
+    max-width: 800px;
+    line-height: 1.6;
+    font-weight: 600;
 }
 
 .top__vk-ico {
@@ -187,7 +190,7 @@
     height: 50px;
     background-color: transparent;
     border: none;
-    font-size: 24px;
+    font-size: 40px;
     color: white;
 }
 
@@ -486,6 +489,16 @@
     margin-bottom: 20px;
 }
 
+.modal-ul span {
+    font-weight: 600;
+}
+
+.modal-li {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .modal-li h3 {
     font-weight: 600;
 }
@@ -507,8 +520,29 @@
     overflow-y: scroll;
 }
 
-.modal-content2 {
-    width: 40%;
+.modal-tr {
+    background-color: #f2f2f2;
+}
+
+.modal-table {
+    width: 650px;
+    /* Задаем фиксированную ширину таблицы */
+    border-collapse: collapse;
+    margin-top: 20px;
+    /* Добавлено для разделения таблиц */
+}
+
+.modal-table th, .modal-table td {
+    width: 200px;
+    /* Задаем фиксированную ширину ячеек */
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.modal-table th {
+    background-color: #b9b5b5;
 }
 
 .close-button, .close-button2, .close-button3 {
@@ -586,7 +620,7 @@ body.modal-open {
         justify-content: center
     }
 
-    .user-action{
+    .user-action {
         justify-content: center
     }
 
@@ -601,7 +635,7 @@ body.modal-open {
         align-items: center;
     }
 
-    .map__inner-ul{
+    .map__inner-ul {
         margin: 0;
     }
 
@@ -677,7 +711,7 @@ body.modal-open {
         font-size: 19px;
     }
 
-    .modal-content2, .modal-content{
+    .modal-content2, .modal-content {
         width: 100%;
     }
 }
@@ -696,64 +730,74 @@ body.modal-open {
         flex-wrap: wrap;
         justify-content: center;
     }
+
+    .modal-table{
+        width: 520px;
+    }
 }
 
 @media (max-width: 600px) {
 
-    .header__inner{
+    .header__inner {
         gap: 10px;
     }
 
-    .about__text-item{
+    .about__text-item {
         text-align: center;
         width: 300px;
     }
 
-    .map__inner-text{
+    .map__inner-text {
         margin-top: 20px;
     }
 
-    .top__text{
+    .top__text {
         font-size: 16px;
     }
 
-    .top__title{
+    .top__title {
         font-size: 45px;
     }
 
-    .bloc-title{
+    .bloc-title {
         font-size: 20px;
         margin: 40px 0;
     }
 
-    .menu__list{
+    .menu__list {
         gap: 20px;
     }
 
-    .contacts__inner-title{
+    .contacts__inner-title {
         font-size: 16px;
     }
 
-    .contacts__inner-itme{
+    .contacts__inner-itme {
         margin: 0;
     }
-    .contacts__inner-social{
+
+    .contacts__inner-social {
         margin-top: 20px;
     }
 
-    .button{
+    .button {
         width: 100px;
         height: 40px;
     }
 
-    .product-title button{
+    .product-title button {
         font-size: 16px;
     }
-    .product-wrap{
+
+    .product-wrap {
         width: 100%;
     }
 
-    .product__inner_item1, .product__inner_item2{
+    .product__inner_item1, .product__inner_item2 {
         flex-direction: column;
+    }
+
+    .modal-table{
+        width: 320px;
     }
 }
