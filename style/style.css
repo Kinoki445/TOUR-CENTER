@@ -800,4 +800,8 @@ body.modal-open {
     .modal-table{
         width: 320px;
     }
+
+    .marshrut__inner-li{
+        font-size: 24px;
+    }
 }
